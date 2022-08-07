@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7478013020900919535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7478013020900919521}
+  - component: {fileID: 7478013020900919534}
+  m_Layer: 0
+  m_Name: AudioManager 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7478013020900919521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7478013020900919535}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7478013020900919534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7478013020900919535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380b823fded6645218035b2a9a387e1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Damage
+    clip: {fileID: 8300000, guid: dc6614beca09347ec9b258f12d154bdd, type: 3}
+    loop: 0
+    group: {fileID: 24300002, guid: 97102d445f9984ba3887dc8177ba15ab, type: 2}
+    source: {fileID: 0}
+    volume: 1
+    pitch: 1
+  - name: Theme
+    clip: {fileID: 8300000, guid: 816b6eab58d24c646a55f35fb63b0f1f, type: 3}
+    loop: 1
+    group: {fileID: 24300002, guid: 97102d445f9984ba3887dc8177ba15ab, type: 2}
+    source: {fileID: 0}
+    volume: 1
+    pitch: 1
+  - name: Explosion
+    clip: {fileID: 8300000, guid: f01c623f724825e44a923d1ae50256f2, type: 3}
+    loop: 0
+    group: {fileID: 24300002, guid: 97102d445f9984ba3887dc8177ba15ab, type: 2}
+    source: {fileID: 0}
+    volume: 1
+    pitch: 1
+  - name: Bullet
+    clip: {fileID: 8300000, guid: 4310474905e266640852f43bd609a1a4, type: 3}
+    loop: 0
+    group: {fileID: 24300002, guid: 97102d445f9984ba3887dc8177ba15ab, type: 2}
+    source: {fileID: 0}
+    volume: 1
+    pitch: 1
+  - name: Select
+    clip: {fileID: 8300000, guid: 030515f205b54fc478961cbe39c4e75e, type: 3}
+    loop: 0
+    group: {fileID: 24300002, guid: 97102d445f9984ba3887dc8177ba15ab, type: 2}
+    source: {fileID: 0}
+    volume: 1
+    pitch: 1
+  - name: Click
+    clip: {fileID: 8300000, guid: 4fb135d3c45ee7343ba34122f8adc35f, type: 3}
+    loop: 0
+    group: {fileID: 24300002, guid: 97102d445f9984ba3887dc8177ba15ab, type: 2}
+    source: {fileID: 0}
+    volume: 1
+    pitch: 1
+  - name: EnemyBullet
+    clip: {fileID: 8300000, guid: 4310474905e266640852f43bd609a1a4, type: 3}
+    loop: 0
+    group: {fileID: 24300002, guid: 97102d445f9984ba3887dc8177ba15ab, type: 2}
+    source: {fileID: 0}
+    volume: 1
+    pitch: 0.7
+  - name: Explosion2
+    clip: {fileID: 8300000, guid: c401d00c96b512e488d2e3bf5d111509, type: 3}
+    loop: 0
+    group: {fileID: 24300002, guid: 97102d445f9984ba3887dc8177ba15ab, type: 2}
+    source: {fileID: 0}
+    volume: 1
+    pitch: 1
