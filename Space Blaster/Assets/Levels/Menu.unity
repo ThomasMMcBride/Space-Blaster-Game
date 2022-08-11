@@ -373,8 +373,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: QUIT
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f4db3b86aeae44ddca768f7273da1de9, type: 2}
-  m_sharedMaterial: {fileID: 4194771547833970022, guid: f4db3b86aeae44ddca768f7273da1de9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dd6697246c7614a7aba3244b509082c2, type: 2}
+  m_sharedMaterial: {fileID: 4194771547833970022, guid: dd6697246c7614a7aba3244b509082c2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1266,8 +1266,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Game created by Thomas McBride
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f4db3b86aeae44ddca768f7273da1de9, type: 2}
-  m_sharedMaterial: {fileID: 4194771547833970022, guid: f4db3b86aeae44ddca768f7273da1de9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dd6697246c7614a7aba3244b509082c2, type: 2}
+  m_sharedMaterial: {fileID: 4194771547833970022, guid: dd6697246c7614a7aba3244b509082c2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1673,95 +1673,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1064877968}
   m_CullTransparentMesh: 1
---- !u!1001 &1270124406
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6783902007581200800, guid: b33c66bfdd3cc4f10a85e15aa3a8acab, type: 3}
-      propertyPath: m_Name
-      value: AudioManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 6783902007581200801, guid: b33c66bfdd3cc4f10a85e15aa3a8acab, type: 3}
-      propertyPath: sounds.Array.size
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6783902007581200801, guid: b33c66bfdd3cc4f10a85e15aa3a8acab, type: 3}
-      propertyPath: sounds.Array.data[0].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: ab297b593498a6e47ba84de770477cbe, type: 3}
-    - target: {fileID: 6783902007581200801, guid: b33c66bfdd3cc4f10a85e15aa3a8acab, type: 3}
-      propertyPath: sounds.Array.data[7].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: fc96116dc3c141440aabb5605744fea2, type: 3}
-    - target: {fileID: 6783902007581200801, guid: b33c66bfdd3cc4f10a85e15aa3a8acab, type: 3}
-      propertyPath: sounds.Array.data[7].name
-      value: Explosion2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6783902007581200801, guid: b33c66bfdd3cc4f10a85e15aa3a8acab, type: 3}
-      propertyPath: sounds.Array.data[0].pitch
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6783902007581200801, guid: b33c66bfdd3cc4f10a85e15aa3a8acab, type: 3}
-      propertyPath: sounds.Array.data[7].group
-      value: 
-      objectReference: {fileID: 24300002, guid: 97102d445f9984ba3887dc8177ba15ab, type: 2}
-    - target: {fileID: 6783902007581200801, guid: b33c66bfdd3cc4f10a85e15aa3a8acab, type: 3}
-      propertyPath: sounds.Array.data[7].pitch
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6783902007581200801, guid: b33c66bfdd3cc4f10a85e15aa3a8acab, type: 3}
-      propertyPath: sounds.Array.data[7].volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6783902007581200814, guid: b33c66bfdd3cc4f10a85e15aa3a8acab, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6783902007581200814, guid: b33c66bfdd3cc4f10a85e15aa3a8acab, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6783902007581200814, guid: b33c66bfdd3cc4f10a85e15aa3a8acab, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6783902007581200814, guid: b33c66bfdd3cc4f10a85e15aa3a8acab, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6783902007581200814, guid: b33c66bfdd3cc4f10a85e15aa3a8acab, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6783902007581200814, guid: b33c66bfdd3cc4f10a85e15aa3a8acab, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6783902007581200814, guid: b33c66bfdd3cc4f10a85e15aa3a8acab, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6783902007581200814, guid: b33c66bfdd3cc4f10a85e15aa3a8acab, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6783902007581200814, guid: b33c66bfdd3cc4f10a85e15aa3a8acab, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6783902007581200814, guid: b33c66bfdd3cc4f10a85e15aa3a8acab, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6783902007581200814, guid: b33c66bfdd3cc4f10a85e15aa3a8acab, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b33c66bfdd3cc4f10a85e15aa3a8acab, type: 3}
 --- !u!1 &1321373198
 GameObject:
   m_ObjectHideFlags: 0
@@ -2054,8 +1965,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: SETTINGS
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f4db3b86aeae44ddca768f7273da1de9, type: 2}
-  m_sharedMaterial: {fileID: 4194771547833970022, guid: f4db3b86aeae44ddca768f7273da1de9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dd6697246c7614a7aba3244b509082c2, type: 2}
+  m_sharedMaterial: {fileID: 4194771547833970022, guid: dd6697246c7614a7aba3244b509082c2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2246,8 +2157,8 @@ MonoBehaviour:
 
     Art and Animation: Thomas McBride'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f4db3b86aeae44ddca768f7273da1de9, type: 2}
-  m_sharedMaterial: {fileID: 4194771547833970022, guid: f4db3b86aeae44ddca768f7273da1de9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dd6697246c7614a7aba3244b509082c2, type: 2}
+  m_sharedMaterial: {fileID: 4194771547833970022, guid: dd6697246c7614a7aba3244b509082c2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2410,6 +2321,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1658089556}
   - component: {fileID: 1658089557}
+  - component: {fileID: 1658089558}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -2451,6 +2363,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7db5f6cf2bae34fa1887958592abc157, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1658089558
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658089555}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b692655c2ee3d4fe8a361926a999e8b0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1683185278
 GameObject:
   m_ObjectHideFlags: 0
@@ -2589,8 +2520,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: PLAY
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f4db3b86aeae44ddca768f7273da1de9, type: 2}
-  m_sharedMaterial: {fileID: 4194771547833970022, guid: f4db3b86aeae44ddca768f7273da1de9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dd6697246c7614a7aba3244b509082c2, type: 2}
+  m_sharedMaterial: {fileID: 4194771547833970022, guid: dd6697246c7614a7aba3244b509082c2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2730,8 +2661,8 @@ MonoBehaviour:
     Objective:
     Dodge and fire at hazards and enemies'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f4db3b86aeae44ddca768f7273da1de9, type: 2}
-  m_sharedMaterial: {fileID: 4194771547833970022, guid: f4db3b86aeae44ddca768f7273da1de9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dd6697246c7614a7aba3244b509082c2, type: 2}
+  m_sharedMaterial: {fileID: 4194771547833970022, guid: dd6697246c7614a7aba3244b509082c2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2987,14 +2918,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2004588832}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.0032018425, w: 0.9999949}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 230853580}
   m_Father: {fileID: 1658089556}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.367}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 5, y: -17}
@@ -3151,3 +3082,60 @@ MonoBehaviour:
             m_StringArgument: Click
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!1001 &3690706185999297341
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7862518961056282085, guid: 2c477c617d7b449a080aa19acdc3516e, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7862518961056282085, guid: 2c477c617d7b449a080aa19acdc3516e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7862518961056282085, guid: 2c477c617d7b449a080aa19acdc3516e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7862518961056282085, guid: 2c477c617d7b449a080aa19acdc3516e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7862518961056282085, guid: 2c477c617d7b449a080aa19acdc3516e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7862518961056282085, guid: 2c477c617d7b449a080aa19acdc3516e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7862518961056282085, guid: 2c477c617d7b449a080aa19acdc3516e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7862518961056282085, guid: 2c477c617d7b449a080aa19acdc3516e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7862518961056282085, guid: 2c477c617d7b449a080aa19acdc3516e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7862518961056282085, guid: 2c477c617d7b449a080aa19acdc3516e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7862518961056282085, guid: 2c477c617d7b449a080aa19acdc3516e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7862518961056282091, guid: 2c477c617d7b449a080aa19acdc3516e, type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2c477c617d7b449a080aa19acdc3516e, type: 3}
